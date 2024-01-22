@@ -1,0 +1,2 @@
+<a href="https://codeclimate.com/github/chifcrow/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c0c0bd41b3105ab57b32/maintainability" /></a>
+<a href="https://codeclimate.com/github/chifcrow/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/c0c0bd41b3105ab57b32/test_coverage" /></a>
