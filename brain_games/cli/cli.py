@@ -1,4 +1,5 @@
-import prompt
+from prompt_toolkit import prompt
+
 
 def welcome_user():
     print("Welcome to the Brain Games!")
