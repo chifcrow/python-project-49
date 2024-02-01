@@ -1,8 +1,8 @@
 <a href="https://codeclimate.com/github/chifcrow/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c0c0bd41b3105ab57b32/maintainability" /></a>
 <a href="https://codeclimate.com/github/chifcrow/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/c0c0bd41b3105ab57b32/test_coverage" /></a>
 
-
  Brain Games - Проверка на чётность
+
 
 ## Описание
 Добро пожаловать в игру "Проверка на чётность"! Это часть серии образовательных мини-игр "Brain Games". В игре "КПроверка на чётность" вам будет предложено определить, является ли предложенное число четным, или нет.
@@ -44,3 +44,4 @@
 Добро пожаловать в игру "Простое ли число?"! Это часть серии образовательных мини-игр "Brain Games". В игре "Простое ли число?" ввам будет предложено определить, является ли предложенное число простым, или нет.
 
 ## Демонстрация игры "Простое ли число?" Посмотреть демонстрацию игры можно здесь: [Смотреть аскинему](https://asciinema.org/a/vZ9UROl03Q6ifhnGRGgyTVhAE)
+
