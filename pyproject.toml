@@ -5,7 +5,6 @@ description = ""
 authors = ["Lazer"]
 license = "None"
 readme = "README.md"
-
 packages = [
   { include = "brain_games" },
 ]
@@ -14,20 +13,20 @@ packages = [
 python = "^3.10"
 prompt = "^0.4.1"
 
-[tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+
 [tool.poetry.scripts]
-brain-gcd = 'brain_games.scripts.brain_gcd:main'
-brain-calc = 'brain_games.scripts.brain_calc:main'
 brain-games = "brain_games.scripts.brain_games:main"
+brain-calc = 'brain_games.scripts.brain_calc:main'
+brain-gcd = 'brain_games.scripts.brain_gcd:main'
 brain-even = "brain_games.scripts.brain_even:main"
 brain-progression = 'brain_games.scripts.brain_progression:main'
 brain-prime = 'brain_games.scripts.brain_prime:main'
