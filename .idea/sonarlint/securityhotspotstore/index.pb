@@ -14,3 +14,9 @@ R
 "brain_games/scripts/brain_games.py,b\0\b0147285bc909b9ec6adf60f60a85305030de1c3
 F
 brain_games/cli/cli.py,f\3\f372c2a81f78d9fc982335b6f358640c833932c2
+9
+	setup.cfg,8\c\8c91c0296909b5ea3c496fde69e9dc44a6c6ae5f
+Q
+!brain_games/scripts/brain_even.py,d\f\df42acebb6073eb07e9a9590e6c85017c398423f
+I
+brain_games/games/even.py,8\4\845171ba7e3813d08eae0fb650ead11727087400
