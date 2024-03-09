@@ -20,3 +20,21 @@ Q
 !brain_games/scripts/brain_even.py,d\f\df42acebb6073eb07e9a9590e6c85017c398423f
 I
 brain_games/games/even.py,8\4\845171ba7e3813d08eae0fb650ead11727087400
+Q
+!brain_games/scripts/brain_calc.py,e\9\e91fe9195cbe99d0b50ac5c97462f34a00efcd31
+I
+brain_games/games/calc.py,9\e\9e120b93c77bca080dc4f9d0f17c0a992efa59ff
+E
+brain_games/engine.py,c\f\cf21a0a10ee81c4d4fb1751adeae7ecfa21d00b4
+P
+ brain_games/scripts/brain_gcd.py,4\6\4681e349c495d723bd218ad6fb7760f6cf9f6ed3
+H
+brain_games/games/gcd.py,b\c\bcc13fd93bae8c85e286f6cdd817c25fad362fbc
+X
+(brain_games/scripts/brain_progression.py,0\1\019c6e43b09e3d53105923d9d770af8e54aad1a5
+P
+ brain_games/games/progression.py,c\d\cd51b4ec7462bd5bedc1a077a4d0695d1732ff69
+R
+"brain_games/scripts/brain_prime.py,1\8\181ed0c5f88ede1d33fc44e8127421afcfc245bf
+J
+brain_games/games/prime.py,d\7\d7fc435c071b016f346171ff85efc11556b744f4
