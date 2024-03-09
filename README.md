@@ -173,6 +173,6 @@ Your answer: yes
 Let's try again, Sam!
 ```
 ### <span style="color:blue">_Демонстрация игры_</span>:
-<script async id="asciicast-646149" src="https://asciinema.org/a/646149.js"></script>
+[![asciicast](https://asciinema.org/a/646149.svg)](https://asciinema.org/a/646149)
 
 
