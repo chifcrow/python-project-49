@@ -8,6 +8,12 @@
 ```
 pip install --user git+https://github.com/chifcrow/python-project-49.git
 ```
+## <span style="color:#266599">Знакомство и приветствие</span>:
+
+### <span style="color:blue">_Запуск игры_</span>:
+```
+$ brain_games
+```
 ## <span style="color:#266599">Игра "Калькулятор"</span>:
 
 ### <span style="color:blue">_Описание игры_</span>:
@@ -15,7 +21,7 @@ pip install --user git+https://github.com/chifcrow/python-project-49.git
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain-calc
+$ brain_calc
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -37,13 +43,11 @@ Congratulations, Sam!
 Если вы введете правильный ответ, игра продолжится и вам будут представлены новые числа. Вам необходимо дать правильные ответы на три вопроса подряд, чтобы выиграть:<br/>
 В случае неправильного ответа, игра завершится, и вы увидите следующее сообщение:<br/>
 ```
-
+Question: 8 + 6
+Your answer: 11
+'11' is wrong answer ;(. Correct answer was '14'.
+Let's try again, Sam!
 ```
-
-### <span style="color:blue">_Демонстрация игры "Калькулятор"_</span>:
-
-
-
 ## <span style="color:#266599">Игра "Проверка на чётность"</span>:
 
 ### <span style="color:blue">_Описание игры_</span>:
@@ -51,7 +55,7 @@ Congratulations, Sam!
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain-even
+$ brain_even
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -72,11 +76,6 @@ Your answer: yes<br/>
 'yes' is wrong answer ;(. Correct answer was 'no'.<br/>
 Let's try again, Bill!
 ```
-
-### <span style="color:blue">_Демонстрация игры "Проверка на чётность"_</span>:
-
-
-
 ## <span style="color:#266599">Игра "Наибольший общий делитель" (НОД)</span>:
 
 ### <span style="color:blue">_Описание игры_</span>:
@@ -85,7 +84,7 @@ Let's try again, Bill!
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain-gcd
+$ brain_gcd
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -116,10 +115,6 @@ Let's try again, Sam!<br/>
 ```
 Попробуйте игру и проверьте свои навыки нахождения НОД!
 
-### <span style="color:blue">_Демонстрация игры "НОД"_</span>:
-
-
-
 ## <span style="color:#266599">Игра "Арифметическая прогрессия"</span>:
 
 ### <span style="color:blue">_Описание игры_</span>:
@@ -128,10 +123,10 @@ Let's try again, Sam!<br/>
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain-progression
+$ brain_progression
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
-<span style="color:green">
+```
 Welcome to the Brain Games!<br>
 May I have your name? Sam<br>
 Hello, Sam!<br>
@@ -139,21 +134,16 @@ What number is missing in the progression?<br>
 Question: 5 7 9 11 13 .. 17 19 21 23<br>
 Your answer: 15<br>
 Correct!<br>
-</span>
-
+```
 Если вы введете правильный ответ, игра продолжится и вам будут представлены новые числа. Вам необходимо дать правильные ответы на три вопроса подряд, чтобы выиграть:<br/>
 В случае неправильного ответа, игра завершится, и вы увидите следующее сообщение:<br/>
 
-<span style="color:green">
+```
 Question: 5 7 9 11 13 .. 17 19 21 23<br>
 Your answer: 1<br>
 '1' is wrong answer ;(. Correct answer was '15'.<br>
 Let's try again, Sam!<br>
-</span>
-
-### <span style="color:blue">_Демонстрация игры "Арифметическая прогрессия"_</span>:
-
-
+```
 ## <span style="color:#266599">Игра "Простое ли число?"</span>:
 
 ### <span style="color:blue">_Описание игры_</span>:
@@ -162,7 +152,7 @@ Let's try again, Sam!<br>
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain-prime
+$ brain_prime
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -182,8 +172,7 @@ Your answer: yes
 'yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, Sam!
 ```
-
-### <span style="color:blue">_Демонстрация игры "Простое ли число?"_</span>:
-
+### <span style="color:blue">_Демонстрация игры_</span>:
+<script async id="asciicast-646149" src="https://asciinema.org/a/646149.js"></script>
 
 
