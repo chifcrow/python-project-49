@@ -1,18 +1,13 @@
 #!/usr/bin/env python3
 
-from brain_games.cli.cli import welcome_user
-from brain_games.games.even import play_even_game
+#!/usr/bin/env python3
+# brain_games/scripts/brain_even.py
 
+from brain_games import engine
+from brain_games.games import even
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = welcome_user()
-
-    if play_even_game():
-        print(f'Congratulations, {name}!')
-    else:
-        print(f"Let's try again, {name}!")
-
+    engine.run_game(even)
 
 if __name__ == '__main__':
     main()

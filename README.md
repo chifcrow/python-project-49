@@ -5,9 +5,20 @@
 # Добро пожаловать в серию образовательных мини-игр "Brain Games".
 
 ## <span style="color:#266599">Установка игры</span>
-```
-pip install --user git+https://github.com/chifcrow/python-project-49.git
-```
+
+Для установки `brain_games`, выполните следующие шаги:
+
+1. Клонирование репозитория:
+   Чтобы скачать последнюю версию игры, клонируйте репозиторий из GitHub:
+   ```
+   git clone https://github.com/chifcrow/python-project-49.git
+   ```
+2. Используйте poetry для установки зависимостей и создания виртуального окружения:
+   ```
+   poetry install
+   ```
+3. Запуск программ описан в следующих обзацах.
+   
 ## <span style="color:#266599">Знакомство и приветствие</span>:
 
 ### <span style="color:blue">_Запуск игры_</span>:
