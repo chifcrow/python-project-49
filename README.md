@@ -23,7 +23,7 @@
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_games
+$ brain-games
 ```
 ## <span style="color:#266599">Игра "Калькулятор"</span>:
 
@@ -32,7 +32,7 @@ $ brain_games
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_calc
+$ brain-calc
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -66,7 +66,7 @@ Let's try again, Sam!
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_even
+$ brain-even
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -95,7 +95,7 @@ Let's try again, Bill!
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_gcd
+$ brain-gcd
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -134,7 +134,7 @@ Let's try again, Sam!<br/>
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_progression
+$ brain-progression
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
@@ -163,7 +163,7 @@ Let's try again, Sam!<br>
 
 ### <span style="color:blue">_Запуск игры_</span>:
 ```
-$ brain_prime
+$ brain-prime
 ```
 ### <span style="color:blue">_Пример игрового процесса_</span>:
 ```
