@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-
-#!/usr/bin/env python3
 # brain_games/scripts/brain_even.py
 
 from brain_games import engine
