@@ -4,6 +4,18 @@ install:
 	@echo "Installing dependencies..."
 	poetry install
 
+.PHONY: lint
+
+lint:
+	@echo "Running linters..."
+	poetry run flake8 brain_games
+
+.PHONY: test
+
+test:
+	@echo "Running tests..."
+	poetry run pytest
+
 .PHONY: build
 
 build:

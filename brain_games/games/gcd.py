@@ -1,6 +1,7 @@
 # brain_games/games/gcd.py
 import random
 
+
 def generate_question_answer():
     print("Find the greatest common divisor of given numbers.")  # Добавление описания игры
 
@@ -9,6 +10,7 @@ def generate_question_answer():
     question = f"{num1} {num2}"
     correct_answer = str(find_gcd(num1, num2))
     return question, correct_answer
+
 
 def find_gcd(num1, num2):
     while num2:

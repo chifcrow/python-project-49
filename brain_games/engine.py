@@ -25,5 +25,5 @@ def run_game(game_module):
 
 
 if __name__ == '__main__':
-    import brain_games.games.even as game_module
-    run_game(game_module)
+    from brain_games.games import even as even_game_module
+    run_game(even_game_module)
