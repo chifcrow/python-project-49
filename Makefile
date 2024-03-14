@@ -9,6 +9,8 @@ install:
 lint:
 	@echo "Running linters..."
 	poetry run flake8 brain_games
+	poetry run isort --check-only brain_games
+	poetry run black --check brain_games
 
 .PHONY: test
 
@@ -37,3 +39,4 @@ package-install:
 .PHONY: build-package
 
 build-package: build publish
+

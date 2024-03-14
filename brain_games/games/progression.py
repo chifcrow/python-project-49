@@ -3,7 +3,7 @@ import random
 
 
 def generate_question_answer():
-    print("What number is missing in the progression?")  # Добавляем это уведомление
+    print("What number is missing in the progression?")
 
     progression_length = 10
     start = random.randint(1, 10)
@@ -16,3 +16,4 @@ def generate_question_answer():
     question = ' '.join(progression)
 
     return question, correct_answer
+
