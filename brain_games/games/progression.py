@@ -16,4 +16,3 @@ def generate_question_answer():
     question = ' '.join(progression)
 
     return question, correct_answer
-
