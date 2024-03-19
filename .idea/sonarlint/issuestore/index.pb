@@ -38,3 +38,5 @@ R
 "brain_games/scripts/brain_prime.py,1\8\181ed0c5f88ede1d33fc44e8127421afcfc245bf
 J
 brain_games/games/prime.py,d\7\d7fc435c071b016f346171ff85efc11556b744f4
+R
+".github/workflows/hexlet-check.yml,8\3\8369295cf04737c94c8b5823ca5548a81771bc43

@@ -1,6 +1,8 @@
 # brain_games/games/prime.py
 import random
 
+RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def is_prime(number):
     if number <= 1:

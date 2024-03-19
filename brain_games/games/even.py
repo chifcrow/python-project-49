@@ -1,6 +1,8 @@
 # brain_games/games/even.py
 import random
 
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def generate_question_answer():
     print('Answer "yes" if the number is even, otherwise answer "no".')

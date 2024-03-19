@@ -1,6 +1,8 @@
 # brain_games/games/progression.py
 import random
 
+RULES = 'What number is missing in the progression?'
+
 
 def generate_question_answer():
     print("What number is missing in the progression?")

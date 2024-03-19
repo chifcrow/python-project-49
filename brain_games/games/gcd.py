@@ -1,6 +1,8 @@
 # brain_games/games/gcd.py
 import random
 
+RULES = 'Find the greatest common divisor of given numbers.'
+
 
 def generate_question_answer():
     print("Find the greatest common divisor of given numbers.")
