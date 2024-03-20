@@ -6,6 +6,8 @@ RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 def is_even(number):
     return number % 2 == 0
 
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 def generate_question_answer():
     number = random.randint(1, 100)

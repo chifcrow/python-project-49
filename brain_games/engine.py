@@ -1,15 +1,16 @@
 # brain_games/engine.py
 from prompt_toolkit import prompt
 
+NUM_ROUNDS = 3
 
-def run_game(game_module):
+def run(game_module):
     print('Welcome to the Brain Games!')
     name = prompt('May I have your name? ')
     print(f'Hello, {name}!')
     print(game_module.RULES)  # Выводим правила игры
 
     correct_answers = 0
-    while correct_answers < 3:
+    while correct_answers < NUM_ROUNDS:
         question, correct_answer = game_module.generate_question_answer()
         print(f'Question: {question}')
         user_answer = prompt('Your answer: ')
