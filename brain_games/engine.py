@@ -4,7 +4,7 @@ from prompt_toolkit import prompt
 
 def run_game(game_module):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
+    name = prompt('May I have your name? ')
     print(f'Hello, {name}!')
     print(game_module.RULES)  # Выводим правила игры
 
@@ -12,7 +12,7 @@ def run_game(game_module):
     while correct_answers < 3:
         question, correct_answer = game_module.generate_question_answer()
         print(f'Question: {question}')
-        user_answer = prompt.string('Your answer: ')
+        user_answer = prompt('Your answer: ')
 
         if user_answer == correct_answer:
             print('Correct!')
