@@ -1,5 +1,5 @@
 # brain_games/engine.py
-import prompt
+from prompt_toolkit import prompt
 
 
 def run_game(game_module):
@@ -22,9 +22,5 @@ def run_game(game_module):
             print(f"Let's try again, {name}!")
             return
 
+
     print(f'Congratulations, {name}!')
-
-
-if __name__ == '__main__':
-    from brain_games.games import even as even_game_module
-    run_game(even_game_module)

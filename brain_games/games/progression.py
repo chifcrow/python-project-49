@@ -5,8 +5,6 @@ RULES = 'What number is missing in the progression?'
 
 
 def generate_question_answer():
-    print("What number is missing in the progression?")
-
     progression_length = 10
     start = random.randint(1, 10)
     step = random.randint(1, 10)
