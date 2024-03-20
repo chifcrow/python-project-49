@@ -8,12 +8,12 @@ def run(game_module):
     print('Welcome to the Brain Games!')
     name = prompt('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game_module.RULES)  # Выводим правила игры
+    print(game_module.RULES)
 
     correct_answers = 0
     while correct_answers < NUM_ROUNDS:
         question, correct_answer = game_module.generate_question_answer()
-        print(f'Question: {question}')
+        print(question)
         user_answer = prompt('Your answer: ')
 
         if user_answer == correct_answer:
