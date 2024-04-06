@@ -1,8 +1,8 @@
 # brain_games/engine.py
-import prompt
+from prompt_toolkit import prompt
 
 
-def run_game(game_module):
+def run(game_module):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -27,4 +27,4 @@ def run_game(game_module):
 
 if __name__ == '__main__':
     from brain_games.games import even as even_game_module
-    run_game(even_game_module)
+    run(even_game_module)
