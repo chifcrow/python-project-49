@@ -6,6 +6,7 @@ def run(game_module):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    print(game_module.RULES)
 
     correct_answers = 0
     while correct_answers < 3:
