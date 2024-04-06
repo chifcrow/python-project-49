@@ -24,10 +24,3 @@ def run(game_module):
             return
 
     print(f'Congratulations, {name}!')
-
-
-# main.py
-# brain_games/main.py
-if __name__ == '__main__':
-    from brain_games import even
-    run(even)
