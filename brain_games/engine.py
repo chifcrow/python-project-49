@@ -17,7 +17,7 @@ def run(game_module):
             print('Correct!')
             correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. "
+            print(f"'{user_answer}' is wrong answer;( "
                   f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
@@ -25,6 +25,8 @@ def run(game_module):
     print(f'Congratulations, {name}!')
 
 
+# main.py
+# brain_games/main.py
 if __name__ == '__main__':
-    from brain_games.games import even as even_game_module
-    run(even_game_module)
+    from brain_games import even
+    run(even)
