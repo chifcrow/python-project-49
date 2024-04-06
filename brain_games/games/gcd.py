@@ -10,7 +10,7 @@ MAX_NUMBER = 100
 def generate_question_answer():
     num1 = random.randint(MIN_NUMBER, MAX_NUMBER)
     num2 = random.randint(MIN_NUMBER, MAX_NUMBER)
-    question = f'What is the greatest common divisor of {num1} and {num2}?'
+    question = f"{num1} {num2}"
     correct_answer = str(find_gcd(num1, num2))
     return question, correct_answer
 
