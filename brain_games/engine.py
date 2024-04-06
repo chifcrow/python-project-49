@@ -1,5 +1,5 @@
 # brain_games/engine.py
-from prompt_toolkit import prompt
+import prompt
 
 
 def run(game_module):
